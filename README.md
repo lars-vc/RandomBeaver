@@ -1,3 +1,7 @@
 # RandomBeaver
 Get a random beaver picture to brighten your day!  
-Right now only the pics are here but dw ill get on that soon
+Progress! Run the main.py to get a cute lil beaver  
+```
+    _n___n_
+   (<ʘ ϖ ʘ>)
+```
