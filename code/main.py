@@ -25,4 +25,3 @@ def showImage(url):
     im.show()
 
 showImage(getRandomUrl())
-print(getRandomUrl())
