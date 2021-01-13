@@ -5,6 +5,7 @@ import random
 import pathlib
 from PIL import Image
 
+
 def parentPath():
     p = pathlib.Path(pathlib.Path().absolute())
     return str(p.parent.absolute()).replace("\\", "/")
@@ -21,8 +22,6 @@ def getRandomUrl():
     x = random.randint(1, maxImageNum())
     s = f"/images/beaverpicture ({x}).jpg"
     return parentPath() + s
-
-
 
 
 def showImage(url):
